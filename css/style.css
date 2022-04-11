@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Make content area fill the entire window */
+html,
+.fullscreen {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* center the content in the browser */
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
